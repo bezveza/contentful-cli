@@ -1,5 +1,7 @@
 const nixt = require('nixt')
 const { join } = require('path')
+const { readSync } = require('fs')
+const removeHandler = require('../../../../lib/cmds/config_cmds/remove')
 
 const bin = join(__dirname, './../../../../', 'bin')
 
@@ -33,7 +35,13 @@ test('config add throws error when option mt is empty', done => {
 })
 
 test('config add allows insecure', (done) => {
-  app().run('config add --insecure=true').code(0).end(done)
+  app()
+    .run('config add --insecure=true')
+    .code(0)
+    .end(() => {
+      const context = readSync('$HOME/.contentfulrc.json')
+      return removeHandler({ context, insecure: true }).then(done)
+    })
 })
 
 test('config add throws error when option ae is empty', done => {
