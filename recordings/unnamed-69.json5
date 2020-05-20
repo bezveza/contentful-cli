@@ -1,0 +1,57 @@
+{
+    meta: {
+        createdAt: '2020-05-20T14:16:34.623Z',
+        host: '',
+        resHumanReadable: true,
+    },
+    req: {
+        url: 'http://api.contentful.com:80/spaces/4m3hmtdgc48s',
+        method: 'GET',
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            'content-type': 'application/vnd.contentful.management.v1+json',
+        },
+        body: '',
+    },
+    res: {
+        status: 301,
+        headers: {
+            'content-type': [
+                'text/html',
+            ],
+            date: [
+                'Wed, 20 May 2020 14:16:34 GMT',
+            ],
+            location: [
+                'https://www.contentful.com/spaces/4m3hmtdgc48s',
+            ],
+            server: [
+                'Contentful',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'content-length': [
+                '166',
+            ],
+            connection: [
+                'Close',
+            ],
+            'set-cookie': [
+                'visid_incap_673446=G+hdrh2iRAyik3fi+zqGo8E7xV4AAAAAQUIPAAAAAAAnK9dLjKeXNOCbLxSXWVVf; expires=Thu, 20 May 2021 12:10:19 GMT; HttpOnly; path=/; Domain=.contentful.com',
+                'nlbi_673446=AnIGOkajWQHiQVf7YMlkBAAAAABnRr1pUAubECVVoHDZHTzN; path=/; Domain=.contentful.com',
+                'incap_ses_730_673446=4AkUR8ixPDaVKenRbnwhCsE7xV4AAAAAGM0+2uP9mzWJf5JA6uXAaw==; path=/; Domain=.contentful.com',
+            ],
+            'x-cdn': [
+                'Incapsula',
+            ],
+            'x-iinfo': [
+                '14-34510311-34510312 NNNN CT(86 -1 0) RT(1589984193674 0) q(0 0 1 -1) r(2 2) U5',
+            ],
+        },
+        body: '<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n',
+    },
+}

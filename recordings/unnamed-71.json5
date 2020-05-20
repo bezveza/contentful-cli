@@ -1,0 +1,57 @@
+{
+    meta: {
+        createdAt: '2020-05-20T14:16:36.132Z',
+        host: '',
+        resHumanReadable: true,
+    },
+    req: {
+        url: 'http://api.contentful.com:80/spaces/162c35fuxrs0',
+        method: 'GET',
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            'content-type': 'application/vnd.contentful.management.v1+json',
+        },
+        body: '',
+    },
+    res: {
+        status: 301,
+        headers: {
+            'content-type': [
+                'text/html',
+            ],
+            date: [
+                'Wed, 20 May 2020 14:16:36 GMT',
+            ],
+            location: [
+                'https://www.contentful.com/spaces/162c35fuxrs0',
+            ],
+            server: [
+                'Contentful',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'content-length': [
+                '166',
+            ],
+            connection: [
+                'Close',
+            ],
+            'set-cookie': [
+                'visid_incap_673446=67F/ztDFSbyNccdN2yixgMM7xV4AAAAAQUIPAAAAAABljA3N8CZ457XLEB/iZ5XZ; expires=Thu, 20 May 2021 12:10:19 GMT; HttpOnly; path=/; Domain=.contentful.com',
+                'nlbi_673446=nlAfLlGnNB2glP8xYMlkBAAAAAB1u0kcBSuaO8pkliepwVvf; path=/; Domain=.contentful.com',
+                'incap_ses_730_673446=u+GUAqSb8FZTKunRbnwhCsM7xV4AAAAAmzvgdNYKhhGrBKIU11Oo3w==; path=/; Domain=.contentful.com',
+            ],
+            'x-cdn': [
+                'Incapsula',
+            ],
+            'x-iinfo': [
+                '4-13539666-13539667 NNNY CT(0 -1 0) RT(1589984195187 0) q(0 0 0 -1) r(1 1) U5',
+            ],
+        },
+        body: '<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n',
+    },
+}

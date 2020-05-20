@@ -1,0 +1,270 @@
+{
+    meta: {
+        createdAt: '2020-05-20T14:16:40.287Z',
+        host: '',
+        resHumanReadable: true,
+        resUncompressed: true,
+    },
+    req: {
+        url: 'https://api.contentful.com:443/spaces/gj3pdpdy8iij/environments/master/content_types/person/published',
+        method: 'PUT',
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            'content-type': 'application/vnd.contentful.management.v1+json',
+            'x-contentful-version': '1',
+        },
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            'access-control-allow-headers': [
+                'Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Source-Environment,X-Contentful-Team,X-Contentful-Parent-Id,x-contentful-validate-only,X-Contentful-Skip-UI-Draft-Validation,X-Contentful-Marketplace,X-Contentful-UI-Content-Auto-Save',
+            ],
+            'access-control-allow-methods': [
+                'DELETE,GET,HEAD,POST,PUT,OPTIONS',
+            ],
+            'access-control-allow-origin': [
+                '*',
+            ],
+            'access-control-expose-headers': [
+                'Etag',
+            ],
+            'access-control-max-age': [
+                '1728000',
+            ],
+            'cf-environment-id': [
+                'master',
+            ],
+            'cf-environment-uuid': [
+                'da4b56a5-8c00-44b9-b925-8b361a61becc',
+            ],
+            'cf-space-id': [
+                'gj3pdpdy8iij',
+            ],
+            'content-encoding': [
+                'gzip',
+            ],
+            'content-type': [
+                'application/vnd.contentful.management.v1+json',
+            ],
+            'contentful-api': [
+                'cma',
+            ],
+            date: [
+                'Wed, 20 May 2020 14:16:40 GMT',
+            ],
+            etag: [
+                'W/"87814934615197262"',
+            ],
+            server: [
+                'Contentful',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'x-contentful-ratelimit-hour-limit': [
+                '36000',
+            ],
+            'x-contentful-ratelimit-hour-remaining': [
+                '35999',
+            ],
+            'x-contentful-ratelimit-reset': [
+                '0',
+            ],
+            'x-contentful-ratelimit-second-limit': [
+                '10',
+            ],
+            'x-contentful-ratelimit-second-remaining': [
+                '9',
+            ],
+            'x-contentful-request-id': [
+                '20df83b9af669a2e3ff84a41bc7ad304',
+            ],
+            'content-length': [
+                '603',
+            ],
+            connection: [
+                'Close',
+            ],
+            'set-cookie': [
+                'visid_incap_673446=J9f5Ld3vSHyG7cMaUBbEnMc7xV4AAAAAQUIPAAAAAADLmxD5q5CMllLu3iM6fUvT; expires=Thu, 20 May 2021 12:10:19 GMT; HttpOnly; path=/; Domain=.contentful.com',
+                'nlbi_673446=q/8EWU/mQlrEmE23YMlkBAAAAAC4yIwG0C2GNc/2JLwnNvIi; path=/; Domain=.contentful.com',
+                'incap_ses_730_673446=ldOBWToVzn6KLOnRbnwhCsc7xV4AAAAAE7zTR/2/pcR4I8NQiEiB3w==; path=/; Domain=.contentful.com',
+            ],
+            'x-cdn': [
+                'Incapsula',
+            ],
+            'x-iinfo': [
+                '14-34511362-34511367 NNNY CT(0 0 0) RT(1589984199338 30) q(0 0 0 -1) r(4 4) U5',
+            ],
+        },
+        body: {
+            sys: {
+                space: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'Space',
+                        id: 'gj3pdpdy8iij',
+                    },
+                },
+                id: 'person',
+                type: 'ContentType',
+                createdAt: '2020-05-20T14:16:36.981Z',
+                updatedAt: '2020-05-20T14:16:40.593Z',
+                environment: {
+                    sys: {
+                        id: 'master',
+                        type: 'Link',
+                        linkType: 'Environment',
+                    },
+                },
+                createdBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                updatedBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                publishedCounter: 1,
+                version: 2,
+                firstPublishedAt: '2020-05-20T14:16:40.593Z',
+                publishedAt: '2020-05-20T14:16:40.593Z',
+                publishedBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                publishedVersion: 1,
+            },
+            displayField: 'title',
+            name: 'Person',
+            description: '',
+            fields: [
+                {
+                    id: 'name',
+                    name: 'Name',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'title',
+                    name: 'Title',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'slogan',
+                    name: 'Slogan',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'company',
+                    name: 'Company',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'shortBio',
+                    name: 'Short Bio',
+                    type: 'Text',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'email',
+                    name: 'Email',
+                    type: 'Symbol',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'phone',
+                    name: 'Phone',
+                    type: 'Symbol',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'facebook',
+                    name: 'Facebook',
+                    type: 'Symbol',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'twitter',
+                    name: 'Twitter',
+                    type: 'Symbol',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'github',
+                    name: 'Github',
+                    type: 'Symbol',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'image',
+                    name: 'Image',
+                    type: 'Link',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                    linkType: 'Asset',
+                },
+            ],
+        },
+    },
+}

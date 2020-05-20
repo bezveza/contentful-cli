@@ -1,0 +1,259 @@
+{
+    meta: {
+        createdAt: '2020-05-20T14:16:40.895Z',
+        host: '',
+        resHumanReadable: true,
+        resUncompressed: true,
+    },
+    req: {
+        url: 'https://api.contentful.com:443/spaces/gj3pdpdy8iij/environments/master/content_types/blogPost/published',
+        method: 'PUT',
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            'content-type': 'application/vnd.contentful.management.v1+json',
+            'x-contentful-version': '1',
+        },
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            'access-control-allow-headers': [
+                'Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Source-Environment,X-Contentful-Team,X-Contentful-Parent-Id,x-contentful-validate-only,X-Contentful-Skip-UI-Draft-Validation,X-Contentful-Marketplace,X-Contentful-UI-Content-Auto-Save',
+            ],
+            'access-control-allow-methods': [
+                'DELETE,GET,HEAD,POST,PUT,OPTIONS',
+            ],
+            'access-control-allow-origin': [
+                '*',
+            ],
+            'access-control-expose-headers': [
+                'Etag',
+            ],
+            'access-control-max-age': [
+                '1728000',
+            ],
+            'cf-environment-id': [
+                'master',
+            ],
+            'cf-environment-uuid': [
+                'da4b56a5-8c00-44b9-b925-8b361a61becc',
+            ],
+            'cf-space-id': [
+                'gj3pdpdy8iij',
+            ],
+            'content-encoding': [
+                'gzip',
+            ],
+            'content-type': [
+                'application/vnd.contentful.management.v1+json',
+            ],
+            'contentful-api': [
+                'cma',
+            ],
+            date: [
+                'Wed, 20 May 2020 14:16:41 GMT',
+            ],
+            etag: [
+                'W/"5159284213861739467"',
+            ],
+            server: [
+                'Contentful',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'x-contentful-ratelimit-hour-limit': [
+                '36000',
+            ],
+            'x-contentful-ratelimit-hour-remaining': [
+                '35999',
+            ],
+            'x-contentful-ratelimit-reset': [
+                '0',
+            ],
+            'x-contentful-ratelimit-second-limit': [
+                '10',
+            ],
+            'x-contentful-ratelimit-second-remaining': [
+                '9',
+            ],
+            'x-contentful-request-id': [
+                'b0c72b73fed81db1fe098ccb4e4103d3',
+            ],
+            'content-length': [
+                '694',
+            ],
+            connection: [
+                'Close',
+            ],
+            'set-cookie': [
+                'visid_incap_673446=muxAcprETNC0DkgDAgqLk8g7xV4AAAAAQUIPAAAAAAAMkYSaymsJwqatxWZ4ge4r; expires=Thu, 20 May 2021 12:10:19 GMT; HttpOnly; path=/; Domain=.contentful.com',
+                'nlbi_673446=avD6XemAzkN5u9/VYMlkBAAAAAA/zMmB7ZTSVNF7JFRay2n3; path=/; Domain=.contentful.com',
+                'incap_ses_730_673446=E0GKf1Dc30bALOnRbnwhCsg7xV4AAAAArwQ1x3Xy1qtynHkXuLWM1w==; path=/; Domain=.contentful.com',
+            ],
+            'x-cdn': [
+                'Incapsula',
+            ],
+            'x-iinfo': [
+                '1-6390960-6390961 NNNY CT(0 0 0) RT(1589984199955 37) q(0 0 0 -1) r(3 3) U5',
+            ],
+        },
+        body: {
+            sys: {
+                space: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'Space',
+                        id: 'gj3pdpdy8iij',
+                    },
+                },
+                id: 'blogPost',
+                type: 'ContentType',
+                createdAt: '2020-05-20T14:16:37.074Z',
+                updatedAt: '2020-05-20T14:16:41.072Z',
+                environment: {
+                    sys: {
+                        id: 'master',
+                        type: 'Link',
+                        linkType: 'Environment',
+                    },
+                },
+                createdBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                updatedBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                publishedCounter: 1,
+                version: 2,
+                firstPublishedAt: '2020-05-20T14:16:41.072Z',
+                publishedAt: '2020-05-20T14:16:41.072Z',
+                publishedBy: {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'User',
+                        id: '1aEHayGKJiZWC9KnSz7ts6',
+                    },
+                },
+                publishedVersion: 1,
+            },
+            displayField: 'title',
+            name: 'Blog Post',
+            description: '',
+            fields: [
+                {
+                    id: 'title',
+                    name: 'Title',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'slug',
+                    name: 'Slug',
+                    type: 'Symbol',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'heroImage',
+                    name: 'Hero Image',
+                    type: 'Link',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                    linkType: 'Asset',
+                },
+                {
+                    id: 'description',
+                    name: 'Description',
+                    type: 'Text',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'body',
+                    name: 'Body',
+                    type: 'Text',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'author',
+                    name: 'Author',
+                    type: 'Link',
+                    localized: false,
+                    required: false,
+                    validations: [
+                        {
+                            linkContentType: [
+                                'person',
+                            ],
+                        },
+                    ],
+                    disabled: false,
+                    omitted: false,
+                    linkType: 'Entry',
+                },
+                {
+                    id: 'publishDate',
+                    name: 'Publish Date',
+                    type: 'Date',
+                    localized: false,
+                    required: true,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                },
+                {
+                    id: 'tags',
+                    name: 'tags',
+                    type: 'Array',
+                    localized: false,
+                    required: false,
+                    validations: [],
+                    disabled: false,
+                    omitted: false,
+                    items: {
+                        type: 'Symbol',
+                        validations: [
+                            {
+                                in: [
+                                    'general',
+                                    'javascript',
+                                    'static sites',
+                                ],
+                            },
+                        ],
+                    },
+                },
+            ],
+        },
+    },
+}

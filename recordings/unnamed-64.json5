@@ -1,0 +1,105 @@
+{
+    meta: {
+        createdAt: '2020-05-20T14:00:43.247Z',
+        host: '',
+        resHumanReadable: true,
+        resUncompressed: true,
+    },
+    req: {
+        url: 'https://api.contentful.com:443/spaces/4m3hmtdgc48s/environments/master',
+        method: 'GET',
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            'content-type': 'application/vnd.contentful.management.v1+json',
+        },
+        body: '',
+    },
+    res: {
+        status: 404,
+        headers: {
+            'access-control-allow-headers': [
+                'Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,X-Contentful-Source-Environment,X-Contentful-Team,X-Contentful-Parent-Id,x-contentful-validate-only,X-Contentful-Skip-UI-Draft-Validation,X-Contentful-Marketplace,X-Contentful-UI-Content-Auto-Save',
+            ],
+            'access-control-allow-methods': [
+                'DELETE,GET,HEAD,POST,PUT,OPTIONS',
+            ],
+            'access-control-allow-origin': [
+                '*',
+            ],
+            'access-control-expose-headers': [
+                'Etag',
+            ],
+            'access-control-max-age': [
+                '1728000',
+            ],
+            'cache-control': [
+                'max-age=0',
+            ],
+            'content-type': [
+                'application/vnd.contentful.management.v1+json',
+            ],
+            'contentful-api': [
+                'cma',
+            ],
+            date: [
+                'Wed, 20 May 2020 14:00:43 GMT',
+            ],
+            'referrer-policy': [
+                'strict-origin-when-cross-origin',
+            ],
+            server: [
+                'Contentful',
+            ],
+            'set-cookie': [
+                '_auth_new_session=991c2020339d4aeca79945566b52cdca; path=/; expires=Wed, 03 Jun 2020 14:00:43 GMT; secure; HttpOnly',
+                'visid_incap_673446=kf2wiz6OSoWGGzC9mokNmgo4xV4AAAAAQUIPAAAAAADCSYmto6Fysnw2Qvj87E0k; expires=Thu, 20 May 2021 12:10:19 GMT; HttpOnly; path=/; Domain=.contentful.com',
+                'nlbi_673446=+ql3DNGP4Wc6zc1sYMlkBAAAAABs3IrdMPEE/UA5a1Oghzdo; path=/; Domain=.contentful.com',
+                'incap_ses_730_673446=MioLHjEfKXy1gefRbnwhCgo4xV4AAAAAZG8qsMwayK1xRgczVFVi0Q==; path=/; Domain=.contentful.com',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'x-contentful-request-id': [
+                '7209c87cbacb2c821ef1292f7c82f98d',
+            ],
+            'x-download-options': [
+                'noopen',
+            ],
+            'x-frame-options': [
+                'ALLOWALL',
+            ],
+            'x-permitted-cross-domain-policies': [
+                'none',
+            ],
+            'x-xss-protection': [
+                '1; mode=block',
+            ],
+            connection: [
+                'Close',
+            ],
+            'x-cdn': [
+                'Incapsula',
+            ],
+            'content-encoding': [
+                'gzip',
+            ],
+            'transfer-encoding': [
+                'chunked',
+            ],
+            'x-iinfo': [
+                '14-34317443-34317450 NNYY CT(0 0 0) RT(1589983242390 36) q(0 0 0 0) r(1 1) U5',
+            ],
+        },
+        body: {
+            requestId: '7209c87cbacb2c821ef1292f7c82f98d',
+            message: 'The resource could not be found.',
+            sys: {
+                type: 'Error',
+                id: 'NotFound',
+            },
+        },
+    },
+}
